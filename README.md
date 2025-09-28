@@ -125,7 +125,6 @@ python -m web_agent.cli --goal "search for gaming laptops under 60000" --model p
 The following screenshots demonstrate the agent's operation when searching for laptops under 50,000:
 
 
-![img 1](https://github.com/user-attachments/assets/4f44f5cd-ebe4-4149-8f70-85dfe244cbb8)
 
 ### Amazon Search Results Page
 
@@ -151,6 +150,9 @@ The agent navigates to Amazon India and performs a search for "laptops under 500
 ### Flipkart Search Results Page
 
 The agent also visits Flipkart and searches for "laptops under 50000". The screenshot shows the Flipkart search results page with comprehensive filtering options.
+
+
+![img 1](https://github.com/user-attachments/assets/4f44f5cd-ebe4-4149-8f70-85dfe244cbb8)
 
 **Key Features Visible:**
 - Browser address bar shows: `flipkart.com/search?q=laptops+under+50000`
@@ -178,4 +180,5 @@ To extend this project:
 3. Add price tracking capabilities
 4. Create a web interface
 5. Add more search categories
+
 
