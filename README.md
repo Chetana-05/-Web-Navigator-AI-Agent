@@ -99,8 +99,8 @@ python -m web_agent.cli --goal "search for gaming laptops under 60000" --model p
 
 ## Project Structure
 
-```
-web_agent/
+
+
 ├── __init__.py          # Package initialization
 ├── agent.py             # Main agent coordination
 ├── browser.py           # Browser automation
@@ -108,7 +108,7 @@ web_agent/
 ├── extractors.py        # Web scraping functions
 ├── ollama_client.py     # AI model communication
 └── planner.py           # Task planning logic
-```
+
 
 ## How It Works
 
@@ -184,43 +184,6 @@ The agent also visits Flipkart and searches for "laptops under 50000". The scree
 - Products show "Flipkart Assured" badges and exchange offers
 - "Top Discount of the Sale" tags are visible
 
-These screenshots demonstrate the agent's successful navigation to both major e-commerce platforms and its ability to extract product information from the search results pages.
-
-## Troubleshooting
-
-### Common Issues
-
-1. **Ollama not running**
-   - Solution: Start Ollama server with `ollama serve`
-
-2. **Browser fails to launch**
-   - Solution: Reinstall Playwright browsers with `python -m playwright install chromium`
-
-3. **No products found**
-   - Some websites may block automated access
-   - Try different search terms or wait a few minutes
-
-4. **Model not found**
-   - Download the model with `ollama pull phi3`
-
-### Getting Help
-
-If you encounter issues:
-1. Check that Ollama server is running
-2. Verify Python dependencies are installed
-3. Ensure Playwright browsers are installed
-4. Try running with `--headed` to see browser behavior
-
-## Learning Objectives
-
-This project teaches:
-- Web automation with Playwright
-- Local AI integration with Ollama
-- Web scraping and data extraction
-- Command line interface development
-- Python async programming
-- JSON data handling
-
 ## Next Steps
 
 To extend this project:
@@ -229,7 +192,3 @@ To extend this project:
 3. Add price tracking capabilities
 4. Create a web interface
 5. Add more search categories
-
-## License
-
-This project is for educational purposes. Please respect website terms of service when scraping data.
