@@ -118,34 +118,20 @@ python -m web_agent.cli --goal "search for gaming laptops under 60000" --model p
 4. **Data Extraction**: Finds and extracts product information
 5. **Result Formatting**: Organizes data into structured JSON output
 
-## Example Output
 
-When you search for laptops, the agent returns:
-```json
-{
-  "status": "ok",
-  "result": {
-    "goal": "search for laptops under 50k and list top 5",
-    "total_products": 3,
-    "products": [
-      {
-        "title": "HP 15, 13th Gen Intel Core i5-1334U...",
-        "price": "50,990",
-        "site": "Amazon"
-      }
-    ],
-    "sites_visited": ["amazon.in", "flipkart.com"]
-  }
-}
-```
 
 ## Output Screenshots
 
 The following screenshots demonstrate the agent's operation when searching for laptops under 50,000:
 
+
+![img 1](https://github.com/user-attachments/assets/4f44f5cd-ebe4-4149-8f70-85dfe244cbb8)
+
 ### Amazon Search Results Page
 
 The agent navigates to Amazon India and performs a search for "laptops under 50000". The screenshot shows the search results page with various laptop listings and filtering options.
+
+![img ](https://github.com/user-attachments/assets/da6f5623-bf91-4df4-aa81-25b89e70ab7b)
 
 **Key Features Visible:**
 - Browser address bar shows: `amazon.in/s?k=laptops+under+50000`
@@ -192,3 +178,4 @@ To extend this project:
 3. Add price tracking capabilities
 4. Create a web interface
 5. Add more search categories
+
